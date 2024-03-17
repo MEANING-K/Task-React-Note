@@ -1,0 +1,16 @@
+.add-note-button {
+    margin-bottom: 20px;
+}
+
+.add-note-button button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-note-button button:hover {
+    background-color: #0056b3;
+}

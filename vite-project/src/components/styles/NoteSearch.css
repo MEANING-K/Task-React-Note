@@ -1,0 +1,24 @@
+.note-search {
+    margin-bottom: 20px;
+    background-color: lightblue;
+}
+
+.note-search input[type="text"] {
+    padding: 10px;
+    width: 70%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.note-search button {
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.note-search button:hover {
+    background-color: #c82333;
+}

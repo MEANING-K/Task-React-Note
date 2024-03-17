@@ -1,0 +1,24 @@
+.note-list h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    background-color: green;
+}
+
+.note-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.note-list li {
+    margin-bottom: 20px;
+}
+
+.note-list h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.note-list p {
+    color: #666;
+}
