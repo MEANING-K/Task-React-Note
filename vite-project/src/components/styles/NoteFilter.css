@@ -2,7 +2,12 @@
     display: flex;
     align-items: flex-start;
     margin-bottom: 20px;
-    background-color: yellow;
+    background-color: rgb(2, 7, 21);
+    color: rgb(255, 255, 255);
+}
+
+.category-list {
+    height: 100vh;
 }
 
 .category-list,
@@ -13,22 +18,23 @@
 .category-list h3,
 .tag-select-wrapper h3 {
     margin-bottom: 10px;
+    padding: 10px;
 }
 
 .category-list button {
     display: block;
-    width: 100%;
+    width: 200px;
+    height: 65px;
     padding: 8px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: rgb(2, 7, 21);
+    color: rgb(255, 255, 255);
+    font-size: 23px;
     border: none;
-    border-radius: 5px;
-    margin-bottom: 10px;
     cursor: pointer;
 }
 
 .category-list button:hover {
-    background-color: #0056b3;
+    background-color: #293B57;
 }
 
 .tag-select-wrapper label {

@@ -14,15 +14,20 @@ interface NoteListProps {
 const NoteList: React.FC<NoteListProps> = ({ notes }) => {
     return (
         <div className="note-list">
-            <h2>노트 목록</h2>
-            <ul>
-                {notes.map((note) => (
-                    <li key={note.id}>
-                        <h3>{note.title}</h3>
-                        <p>{note.content}</p>
-                    </li>
-                ))}
-            </ul>
+            {notes.length > 0 ? (
+                <>
+                    <ul>
+                        {notes.map((note) => (
+                            <li key={note.id}>
+                                <h3>{note.title}</h3>
+                                <p>{note.content}</p>
+                            </li>
+                        ))}
+                    </ul>
+                </>
+            ) : (
+                <h2>노트가 없습니다.</h2>
+            )}
         </div>
     );
 };

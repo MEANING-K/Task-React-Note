@@ -1,22 +1,16 @@
 .note-search {
     margin-bottom: 20px;
-    background-color: lightblue;
 }
 
 .note-search input[type="text"] {
     padding: 10px;
-    width: 70%;
+    width: 90%;
     border-radius: 5px;
     border: 1px solid #ccc;
-}
-
-.note-search button {
-    padding: 10px 20px;
-    background-color: #dc3545;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    margin: 0 auto;
+    /* 수평 가운데 정렬 */
+    display: block;
+    /* 블록 요소로 설정하여 가운데 정렬을 적용합니다 */
 }
 
 .note-search button:hover {

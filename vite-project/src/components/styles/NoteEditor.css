@@ -1,7 +1,12 @@
+.note-editor {
+    width: 600px;
+    height: 300px;
+}
+
 .note-editor input[type="text"],
 .note-editor textarea {
     display: block;
-    width: 100%;
+    width: 96%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -10,7 +15,7 @@
 
 .note-editor button {
     padding: 10px 20px;
-    background-color: #28a745;
+    background-color: rgb(2, 7, 21);
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -18,5 +23,5 @@
 }
 
 .note-editor button:hover {
-    background-color: #218838;
+    background-color: #293B57;
 }
